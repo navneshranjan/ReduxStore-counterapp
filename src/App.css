@@ -1,0 +1,22 @@
+* {
+  background-color: rgb(134, 134, 134);
+}
+.container {
+  width: 100vw;
+  height: 100vh;
+
+  flex-direction: column;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.butt {
+  background-color: rgb(8, 107, 236);
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 2px;
+  padding-bottom: 2px;
+  margin: 4px;
+}
