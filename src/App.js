@@ -16,7 +16,7 @@ const App = () => {
             <span className="butt">-</span>
           </a>
           <input type="text" value={myState} />
-          <a title="Increment" onClick={(state) => dispatch(incNumber())}>
+          <a title="Increment" onClick={(state) => dispatch(incNumber(5))}>
             <span className="butt">+</span>
           </a>
         </div>
